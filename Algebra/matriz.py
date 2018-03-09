@@ -1,5 +1,7 @@
-from numpy import linalg,matrix
-from sympy import Matrix
-a = matrix('1 3 5 ; 2 3 1 ; -1 1 1')
-g = linalg.det(a)
-print g
+from numpy import matrix
+a = matrix('1 0 0 ; 0 1 0 ; 0 0 1')
+b = matrix('1 2 ; 3 4')
+#c = ((a + b)/2)+5
+#d = c.I
+u = b.I
+print u
