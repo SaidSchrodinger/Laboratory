@@ -6,6 +6,6 @@ b = input('Altura: ')
 
 c = 2
 
-r = (a*b)/c
+r = float(a*b)/c
 
 print "El area del triangulo es:",r
